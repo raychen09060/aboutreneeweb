@@ -1,0 +1,358 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:16px;
+    overflow-y: scroll;
+}
+
+body{
+    padding:0;
+    margin:0;
+    cursor:default;
+    font-family:ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans TC", "PingFang TC", "Helvetica Neue", Arial, sans-serif;
+}
+
+.header_banner{
+    display:block;
+    width:1420px;
+    height:10vh;
+    min-height:75px;
+    position:sticky;
+    z-index:50;
+    top:0;
+    border-bottom:solid;
+    border-bottom-width:1px;
+    border-bottom-color:rgba(30, 41, 59, 1);
+    background:linear-gradient(180deg,#0f192d, #0b1220);
+}
+
+.header_container{
+    display:block;
+    margin:auto 114px;
+    width:80vw;
+    min-width:912px;
+    height:100%;
+}
+
+.logo{
+    float:left;
+    margin:25px auto;
+    width:15vw;
+    min-width:171px;
+    color:rgba(255, 255, 255, 1);
+    font-size:1.1rem;
+}
+
+.header_options{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    float:right;
+    margin:25px auto;
+    width:35vw;
+    min-width:400px;
+}
+
+.header_button{
+    display:flex;
+    justify-content:center;
+    width:7vw;
+    min-width:80px;
+    color:rgba(255, 255, 255, 1);
+    font-size:1.1rem;
+}
+
+.homepage{
+    display:block;
+    height:660px;
+    width:1420px;
+    /* min-height:656px; */
+    padding-top:300px;
+    background-image:
+        linear-gradient(90deg, rgba(15, 25, 45, 0.85) 0%, rgba(15, 25, 45, 0.8) 45%, rgba(15, 25, 45, 0.75)100%),
+        url("./F2E-Project/images/reneeface.jpg");
+    background-blend-mode:multiply;
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+
+.homepage_inner{
+    display:block;
+    margin-left:10vw;
+    width:auto;
+    max-width:700px;
+    height:auto;
+    color:rgba(255, 255, 255, 1);
+}
+
+.homepage_inner .line_1{
+    color:rgba(148, 163, 184, 1);
+    font-size:1rem;
+}
+
+.homepage_inner h1{
+    color:rgba(255, 255, 255, 1);
+    font-size:4rem;
+    margin-top:0.2rem;
+}
+
+.homepage_inner .line_2{
+    color:rgba(167, 219, 224, 1);
+    font-size:1rem;
+    margin-top:0.5rem;
+}
+
+.homepage_inner .homepage_paragraph{
+    color:rgba(185, 198, 210, 1);
+    font-size:1.02rem;
+    line-height:1.7rem;
+    margin-top:1rem;
+}
+
+.homepage_inner .homepage_inner_button1{
+    font-size:1.2rem;
+    margin-top:15px;
+    width:155px;
+    height:55px;
+    color:rgba(0, 16, 20, 1);
+    background:rgba(24, 198, 209, 1);
+    border:none;
+    border-radius:10px;
+}
+
+.homepage_inner .homepage_inner_button2{
+    font-size:1.2rem;
+    margin-top:15px;
+    margin-left:10px;
+    width:155px;
+    height:55px;
+    color:rgba(126, 232, 240, 1);
+    background:rgba(12, 39, 44, 0.35);
+    border:rgba(126, 232, 240, 1);
+    border-radius:10px;
+}
+
+.homepage_inner .homepage_inner_button1:hover{
+    cursor:pointer;
+}
+
+.homepage_inner .homepage_inner_button2:hover{
+    cursor:pointer;
+}
+
+.aboutpage{
+    display:grid;
+    grid-template-rows:386px;
+    grid-template-columns:580px 580px;
+    gap:2.2rem;
+    justify-content:center;
+    width:1420px;
+    height:670px;
+    padding-top:150px;
+    background-color:rgba(11, 18, 32, 1);
+}
+
+.aboutpage_content{
+    color:rgba(209, 213, 219, 1);
+}
+
+.aboutpage_content_title{
+    margin-top:30px;
+    font-size:2.2rem;
+}
+
+.aboutpage_content_divider{
+    height:3px;
+    width:60px;
+    margin:10px 50px;
+    background-color:rgba(24, 198, 209, 1);
+    border-radius:1.5px;
+}
+
+.aboutpage_content_inner{
+    margin:20px 0px;
+    font-size:1rem;
+    line-height:1.8rem;
+}
+
+.aboutpage_content_link{
+    
+    color:rgba(24, 198, 209, 1);
+    text-decoration-line:none;
+}
+
+.aboutpage_progress{
+    display:block;
+    color:rgba(148, 163, 184, 1);
+}
+
+.aboutpage_progress_title{
+    font-size:1.2rem;
+    color:rgba(229, 231, 235, 1);
+}
+
+.aboutpage_progress_SP{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.aboutpage_progress_SP_outer{
+    width:100%;
+    height:10px;
+    border:solid;
+    border-color:rgba(209, 213, 219, 0.3);
+    border-radius:4px;
+    background-color:rgba(11, 33, 51, 1);
+}
+
+.aboutpage_progress_SP_inner{
+    display:block;
+    width:95%;
+    height:100%;
+    background:linear-gradient(90deg, rgba(24, 198, 209, 1), rgba(92, 208, 219, 1));
+}
+
+.aboutpage_progress_PDP{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.aboutpage_progress_PDP_outer{
+    width:100%;
+    height:10px;
+    border:solid;
+    border-color:rgba(209, 213, 219, 0.3);
+    border-radius:4px;
+    background-color:rgba(11, 33, 51, 1);
+}
+
+.aboutpage_progress_PDP_inner{
+    display:block;
+    width:90%;
+    height:100%;
+    background:linear-gradient(90deg, rgba(24, 198, 209, 1), rgba(92, 208, 219, 1));
+}
+
+.aboutpage_progress_LP{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.aboutpage_progress_LP_outer{
+    width:100%;
+    height:10px;
+    border:solid;
+    border-color:rgba(209, 213, 219, 0.3);
+    border-radius:4px;
+    background-color:rgba(11, 33, 51, 1);
+}
+
+.aboutpage_progress_LP_inner{
+    display:block;
+    width:85%;
+    height:100%;
+    background:linear-gradient(90deg, rgba(24, 198, 209, 1), rgba(92, 208, 219, 1));
+}
+
+.aboutpage_progress_LL{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.aboutpage_progress_LL_outer{
+    width:100%;
+    height:10px;
+    border:solid;
+    border-color:rgba(209, 213, 219, 0.3);
+    border-radius:4px;
+    background-color:rgba(11, 33, 51, 1);
+}
+
+.aboutpage_progress_LL_inner{
+    display:block;
+    width:82%;
+    height:100%;
+    background:linear-gradient(90deg, rgba(24, 198, 209, 1), rgba(92, 208, 219, 1));
+}
+
+.aboutpage_progress_S{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.aboutpage_progress_S_outer{
+    width:100%;
+    height:10px;
+    border:solid;
+    border-color:rgba(209, 213, 219, 0.3);
+    border-radius:4px;
+    background-color:rgba(11, 33, 51, 1);
+}
+
+.aboutpage_progress_S_inner{
+    display:block;
+    width:82%;
+    height:100%;
+    background:linear-gradient(90deg, rgba(24, 198, 209, 1), rgba(92, 208, 219, 1));
+}
+
+.aboutpage_progress_SA{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.aboutpage_progress_SA_outer{
+    width:100%;
+    height:10px;
+    border:solid;
+    border-color:rgba(209, 213, 219, 0.3);
+    border-radius:4px;
+    background-color:rgba(11, 33, 51, 1);
+}
+
+.aboutpage_progress_SA_inner{
+    display:block;
+    width:80%;
+    height:100%;
+    background:linear-gradient(90deg, rgba(24, 198, 209, 1), rgba(92, 208, 219, 1));
+}
+
+.featurepage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:1420px;
+    height:auto;
+    background-color:rgba(15, 23, 42, 1);
+}
+
+.featurepage_title{
+    margin-top:100px;
+    font-size:2.2rem;
+    color:rgba(229, 231, 235, 1);
+}
+
+.featurepage_divider{
+    height:3px;
+    width:60px;
+    margin-top:10px;
+    background-color:rgba(24, 198, 209, 1);
+    border-radius:1.5px;
+}
+
+.featurepage_subtitle{
+    margin:50px 0px;
+    font-size:1rem;
+    color:rgba(148, 163, 184, 1);
+}
