@@ -74,7 +74,7 @@ body{
     padding-top:300px;
     background-image:
         linear-gradient(90deg, rgba(15, 25, 45, 0.85) 0%, rgba(15, 25, 45, 0.8) 45%, rgba(15, 25, 45, 0.75)100%),
-        url("./F2E-Project/images/reneeface.jpg");
+        url("./images/reneeface.jpg");
     background-blend-mode:multiply;
     background-size:100% auto;
     background-repeat:no-repeat;
@@ -355,4 +355,5 @@ body{
     margin:50px 0px;
     font-size:1rem;
     color:rgba(148, 163, 184, 1);
+
 }
