@@ -182,7 +182,6 @@ body{
 }
 
 .aboutpage_content_link{
-    
     color:rgba(24, 198, 209, 1);
     text-decoration-line:none;
 }
@@ -356,4 +355,135 @@ body{
     margin:50px 0px;
     font-size:1rem;
     color:rgba(148, 163, 184, 1);
+}
+
+.featurepage_card_container{
+    display:flex;
+    justify-content:center;
+}
+
+.featurepage_card{
+    width:320px;
+    height:400px;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:3px 6px 12px 0 rgba(0,0,0,.25);
+}
+
+.featurepage_card1_top{
+    display:flex;
+    width:100%;
+    height:50%;
+    background-image:url("./images/aispeaker.jpg");
+    background-size:cover;
+    border-radius:10px 10px 0px 0px;
+}
+
+.featurepage_card1_sticker{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:30px;
+    width:56px;
+    margin:10px 10px;
+    font-size:0.9rem;
+    border:solid;
+    border-width:1px;
+    border-color:rgba(11, 18, 32, 1);
+    border-radius:20px;
+    background-color:rgba(24, 198, 209, 1);
+    color:rgba(0, 39, 43, 1);
+}
+
+.featurepage_card2_top{
+    display:flex;
+    width:100%;
+    height:50%;
+    background-image:url("./images/laggage.jpg");
+    background-size:cover;
+    border-radius:10px 10px 0px 0px;
+}
+
+.featurepage_card2_sticker{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:30px;
+    width:77px;
+    margin:10px 10px;
+    font-size:0.9rem;
+    border:solid;
+    border-width:1px;
+    border-color:rgba(11, 18, 32, 1);
+    border-radius:20px;
+    background-color:rgba(24, 198, 209, 1);
+    color:rgba(0, 39, 43, 1);
+}
+
+.featurepage_card3_top{
+    display:flex;
+    width:100%;
+    height:50%;
+    background-image:url("./images/planting.jpg");
+    background-size:cover;
+    border-radius:10px 10px 0px 0px;
+}
+
+.featurepage_card3_sticker{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:30px;
+    width:93px;
+    margin:10px 10px;
+    font-size:0.9rem;
+    border:solid;
+    border-width:1px;
+    border-color:rgba(11, 18, 32, 1);
+    border-radius:20px;
+    background-color:rgba(24, 198, 209, 1);
+    color:rgba(0, 39, 43, 1);
+}
+
+.featurepage_card_bottom{
+    padding-left:10px;
+}
+
+.featurepage_card_title{
+    font-size:1.1rem;
+    margin-top:15px;
+    color:rgba(229, 231, 235, 1);
+}
+
+.featurepage_card_content{
+    font-size:1rem;
+    margin-top:10px;
+    color:rgba(148, 163, 184, 1);
+}
+
+.featurepage_card_keyword_container{
+    margin-top:15px;
+    display:flex;
+    align-items:center;
+}
+
+.featurepage_card_keyword{
+    display:flex;
+    height:30px;
+    width:auto;
+    margin-right:5px;
+    margin-bottom:10px;
+    padding:0.25rem 0.5rem;
+    font-size:0.75rem;
+    border:solid;
+    border-width:1px;
+    border-color:rgba(33, 65, 74, 1);
+    border-radius:20px;
+    background:none;
+    color:rgba(142, 222, 228, 1);
+}
+
+.featurepage_card_link{
+    color:rgba(24, 198, 209, 1);
+    text-decoration-line:none;
 }
